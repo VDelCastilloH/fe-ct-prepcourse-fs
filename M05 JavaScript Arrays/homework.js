@@ -197,12 +197,12 @@ function continueStatement(num) {
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
    let arr = [];
-   for(let i=0; i<10;i++){
+   for(let i=0; i<10; i++){
       if(i===5){
          continue;
       }
       num = num + 2;
-      arr.push(num);
+      arr.push(num); 
    }
    return arr;
 }
